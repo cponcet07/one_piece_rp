@@ -1,0 +1,44 @@
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Supprimez le background-color */
+  /* background-color: #f7f3e7; */
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+/* Utilisez une couleur de fond transparente si nécessaire */
+}
+
+body {
+  background-image: url('images/sky_background.jpg'); /* Remplacez par le chemin de votre image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#header a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #007BFF;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#header a:hover {
+  background-color: #0056b3;
+}
