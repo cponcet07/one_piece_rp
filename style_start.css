@@ -147,7 +147,7 @@ h1.main, p.demos {
 	width: 100px;
 	height: 100px;
 	background: #fff;
-	color: #4d0039;
+	color: #0d420c;
 	font-size: 25px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -163,7 +163,7 @@ h1.main, p.demos {
 	transform: scale(1) rotate(0deg);
 }
 .sp-circle-link:hover {
-	background: #4d0039;
+	background: #0d420c;
 	color: #fff;
 }
 /**/
